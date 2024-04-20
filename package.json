@@ -1,0 +1,19 @@
+{
+  "name": "Basic_Post_and_Get_API",
+  "version": "1.0.0",
+  "description": "Basic post and get api from database",
+  "main": "server.js",
+  "repository": "https://github.com/simbustr/Basic_Post_and_Get_API.git",
+  "author": "simbu",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.2",
+    "nodemon": "^3.1.0"
+  }
+}
